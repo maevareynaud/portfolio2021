@@ -1,0 +1,6 @@
+.DS_STORE
+.idea
+/uploads
+/plugins
+/index.php
+/upgrade
