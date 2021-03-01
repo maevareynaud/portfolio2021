@@ -7,15 +7,11 @@
 {% endblock %}
 
 	<body class="{{body_class}}" data-template="base.twig">
-		<a class="skip-link screen-reader-text" href="#content">{{ _e( 'Skip to content') }}</a>
 		<header class="header" >
 			{% block header %}
-				<div class="wrapper">
-					<h1 class="hdr-logo" role="banner">
-						<a class="hdr-logo-link" href="{{site.url}}" rel="home">{{site.name}}</a>
-					</h1>
+				<div class="wrapper"> 
 					<nav id="nav-main" class="nav-main" role="navigation">
-						{% include "menu.twig" with {'items': menu.get_items} %}
+						{% include "menu.twig" with {'items': wp.menus['main'].items } %}
 					</nav><!-- #nav -->
 				</div>
 			{% endblock %}

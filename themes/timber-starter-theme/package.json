@@ -1,0 +1,36 @@
+{
+  "name": "timber-starter-theme",
+  "version": "1.0.0",
+  "description": "The \"_s\" for Timber: a dead-simple theme that you can build from. The primary purpose of this theme is to provide a file structure rather than a framework for markup or styles. Configure your Sass, scripts, and task runners however you would like!",
+  "main": "index.js",
+  "directories": {
+    "test": "tests"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/maevareynaud/portfolio2021.git"
+  },
+  "author": "Maeva Reynaud",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/maevareynaud/portfolio2021/issues"
+  },
+  "homepage": "https://github.com/maevareynaud/portfolio2021#readme",
+  "devDependencies": {
+    "browser-sync": "^2.26.14",
+    "gulp": "^4.0.2",
+    "gulp-autoprefixer": "^7.0.1",
+    "gulp-clean-css": "^4.3.0",
+    "gulp-concat": "^2.6.1",
+    "gulp-imagemin": "^7.1.0",
+    "gulp-notify": "^3.2.0",
+    "gulp-plumber": "^1.2.1",
+    "gulp-rename": "^2.0.0",
+    "gulp-sass": "^4.1.0",
+    "gulp-sourcemaps": "^3.0.0",
+    "gulp-uglify": "^3.0.2"
+  }
+}

@@ -1,10 +1,15 @@
-{% if menu %}
+{% if wp.menus['main'] %}
 	<ul>
-	{% for item in items %}
-		<li class="{{ item.classes | join(' ') }}">
-			<a target="{{ item.target }}" href="{{ item.link }}">{{ item.title }}</a>
-			{% include "menu.twig" with {'items': item.children} %}
-		</li>
-	{% endfor %}
+	<div class="main-menu">
+		{% for item in items %}
+			<li class="{{ item.classes | join(' ') }}">
+				<a target="{{ item.target }}" href="{{ item.link }}">{{ item.title }}</a>
+			</li>
+		{% endfor %}
+	</div>
+	<li>
+		<a class="logo-link" href="{{site.url}}" rel="home">MR</a>
+	</li>
+
 	</ul>
 {% endif %}

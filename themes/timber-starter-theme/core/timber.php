@@ -27,8 +27,7 @@ class TimberConfig extends \TimberSite {
 
     // Menus
     $context['wp']['menus'] = array(
-      "main" => new \Timber\Menu('main'),
-      "footer" => new \Timber\Menu('footer'),
+      "main" => new \Timber\Menu(),
     );
 
     if(is_user_logged_in()){

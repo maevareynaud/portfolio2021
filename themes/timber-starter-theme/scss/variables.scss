@@ -1,0 +1,55 @@
+/*
+*   COLORS
+*/
+
+$black: #000000;
+$grey : #969696;
+
+/*
+*   FONTS
+*/
+
+@font-face {
+    font-family: "PlayfairDisplay";
+    font-weight: bold;
+    src: url('../fonts/PlayfairDisplay-Bold.ttf') format('opentype');
+    font-style: normal;
+}
+
+@font-face {   
+    font-family: "PlayfairDisplay";
+    font-weight: bold;
+    src: url('../fonts/PlayfairDisplay-BoldItalic.ttf') format('opentype');
+    font-style: italic;
+}
+
+@font-face {
+    font-family: "PlayfairDisplay";
+    font-weight: normal;
+    src: url('../fonts/PlayfairDisplay-RegularItalic.ttf') format('opentype');
+    font-style: italic;
+}
+
+@font-face {
+    font-family: "PlayfairDisplay";
+    font-weight: normal;
+    src: url('../fonts/PlayfairDisplay-Regular.ttf') format('opentype');
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Metropolis";
+    font-weight: normal;
+    src: url('../fonts/Metropolis-ExtraLight.otf') format('opentype');
+    font-style: normal;
+}
+
+@font-face {   
+    font-family: "Metropolis";
+    font-weight: bold;
+    src: url('../fonts/Metropolis-Medium.otf') format('opentype');
+    font-style: normal;
+}
+
+$main-font: "Metropolis";
+$secondary-font: "PlayfairDisplay";
